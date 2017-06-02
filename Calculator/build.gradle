@@ -1,0 +1,14 @@
+
+// Apply the java-library plugin to add support for Java Library
+apply plugin: 'java-library'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    //Test
+	testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
