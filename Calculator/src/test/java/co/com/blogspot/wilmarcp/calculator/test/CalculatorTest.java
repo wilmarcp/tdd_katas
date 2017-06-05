@@ -20,6 +20,8 @@ import co.com.blogspot.wilmarcp.calculator.StringCalculator;
 11- Delimiters can be of any length with the following format: “//[delimiter]\n” for example: “//[—]\n1—2—3” should return 6
 12- Allow multiple delimiters like this: “//[delim1][delim2]\n” for example “//[-][%]\n1-2%3” should return 6.
 
+Resource: https://technologyconversations.com/2013/12/20/test-driven-development-tdd-example-walkthrough/
+
  * @author wilmar.castano
  *
  */
